@@ -1,6 +1,7 @@
 var stompClient = null;
 
 $(document).ready(function(){
+    
 	
 	if(stompClient!=null)
 		stompClient.disconnect();
